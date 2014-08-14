@@ -1,1 +1,6 @@
 target/
+build/
+package/SoyToJsSrcCompiler.jar
+package/SoyMsgExtractor.jar
+package/soyutils_usegoog.js
+npm-debug.log
