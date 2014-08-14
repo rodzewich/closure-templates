@@ -13,9 +13,6 @@ pre-compiled jar and js support files with `npm install closure-templates`
 require('closure-templates') // Returns a dictionary of JAR and source files in this package.
 ```
 
-[closure-tempates-src](https://www.npmjs.org/package/closure-templates) allows you to download
-the original source code.
-
 If you are looking for a way to use Closure Templates from a NodeJS API,
 you should look at [soynode](https://github.com/Medium/soynode).
 
