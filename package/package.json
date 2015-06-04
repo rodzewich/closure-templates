@@ -1,6 +1,6 @@
 {
   "name": "closure-templates",
-  "version": "20141017.0.1",
+  "version": "20150605.0.0",
   "keywords": [
     "javascript",
     "closure",
@@ -22,7 +22,7 @@
   ],
   "main": "soyfiles.js",
   "scripts": {
-    "test": "ant test",
+    "test": "mvn test",
     "prepublish": "cd .. && ./build-package.sh"
   }
 }
