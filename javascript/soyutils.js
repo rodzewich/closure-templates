@@ -82,7 +82,7 @@ if (!goog.userAgent) {
         /**
          * @type {boolean}
          */
-        HAS_JSCRIPT: 'ScriptEngine' in this
+        HAS_JSCRIPT: 'ScriptEngine' in (typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : {})
       },
       /**
        * @type {boolean}
